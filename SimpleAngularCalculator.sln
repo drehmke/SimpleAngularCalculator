@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CBC912BC-76F6-43FF-B538-0B93D41D3359}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F9AFED6F-51DB-481B-B9B3-DDFFDC7208C1}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SimpleAngularCalculator", "src\SimpleAngularCalculator\SimpleAngularCalculator.xproj", "{374CB088-B1A5-47D2-B86C-CA6232FC5004}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{374CB088-B1A5-47D2-B86C-CA6232FC5004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374CB088-B1A5-47D2-B86C-CA6232FC5004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374CB088-B1A5-47D2-B86C-CA6232FC5004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374CB088-B1A5-47D2-B86C-CA6232FC5004}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{374CB088-B1A5-47D2-B86C-CA6232FC5004} = {CBC912BC-76F6-43FF-B538-0B93D41D3359}
+	EndGlobalSection
+EndGlobal
